@@ -1,0 +1,35 @@
+# Name File                                                          ZeroPoint(Vega)         ZeroPoint(AB)           ZeroPoint(ST)
+HST_WFC3_ir_f098m   	HST_WFC3_ir_f098m.dat              22.983576       22.372872     21.100233
+HST_WFC3_ir_f105w   	HST_WFC3_ir_f105w.dat   			  23.192299 		22.506647	  21.100233
+HST_WFC3_ir_f110w   	HST_WFC3_ir_f110w.dat   			  23.454392 		22.673054	  21.100233
+HST_WFC3_ir_f125w   	HST_WFC3_ir_f125w.dat   			  23.818796 		22.876249	  21.100233
+HST_WFC3_ir_f127m   	HST_WFC3_ir_f127m.dat   			  23.949555 		22.932959	  21.100233
+HST_WFC3_ir_f139m   	HST_WFC3_ir_f139m.dat   			  24.244395 		23.112648	  21.100233
+HST_WFC3_ir_f140w   	HST_WFC3_ir_f140w.dat   			  24.229750 		23.111613	  21.100233
+HST_WFC3_ir_f153m   	HST_WFC3_ir_f153m.dat   			  24.653560 		23.333548	  21.100233
+HST_WFC3_ir_f160w   	HST_WFC3_ir_f160w.dat   			  24.640386 		23.336566	  21.100233
+HST_WFC3_uvis1_218w    HST_WFC3_uvis1_218w.dat   		  20.768315 		19.144144	  21.100233
+HST_WFC3_uvis1_225w    HST_WFC3_uvis1_225w.dat   		  20.887025 		19.270313	  21.100233
+HST_WFC3_uvis1_275w    HST_WFC3_uvis1_275w.dat   		  21.006479 		19.563736	  21.100233
+HST_WFC3_uvis1_300x    HST_WFC3_uvis1_300x.dat   		  21.006874 		19.625843	  21.100233
+HST_WFC3_uvis1_336w    HST_WFC3_uvis1_336w.dat   		  21.085939 		20.030823	  21.100233
+HST_WFC3_uvis1_390m    HST_WFC3_uvis1_390m.dat   		  20.515111 		20.361437	  21.100233
+HST_WFC3_uvis1_390w    HST_WFC3_uvis1_390w.dat   		  20.614133 		20.367653	  21.100233
+HST_WFC3_uvis1_410m    HST_WFC3_uvis1_410m.dat   		  20.337161 		20.476606	  21.100233
+HST_WFC3_uvis1_438w    HST_WFC3_uvis1_438w.dat   		  20.442826 		20.584066	  21.100233
+HST_WFC3_uvis1_467m    HST_WFC3_uvis1_467m.dat   		  20.605326 		20.760958	  21.100233
+HST_WFC3_uvis1_475w    HST_WFC3_uvis1_475w.dat   		  20.693608 		20.787416	  21.100233
+HST_WFC3_uvis1_475x    HST_WFC3_uvis1_475x.dat   		  20.799754 		20.843010	  21.100233
+HST_WFC3_uvis1_547m    HST_WFC3_uvis1_547m.dat   		  21.087322 		21.087602	  21.100233
+HST_WFC3_uvis1_555w    HST_WFC3_uvis1_555w.dat   		  20.988174 		21.016170	  21.100233
+HST_WFC3_uvis1_600lp   HST_WFC3_uvis1_600lp.dat    	  22.078793 		21.746128	  21.100233
+HST_WFC3_uvis1_606w    HST_WFC3_uvis1_606w.dat   		  21.305279 		21.228549	  21.100233
+HST_WFC3_uvis1_621m    HST_WFC3_uvis1_621m.dat   		  21.523103 		21.372229	  21.100233
+HST_WFC3_uvis1_625w    HST_WFC3_uvis1_625w.dat   		  21.513176 		21.367743	  21.100233
+HST_WFC3_uvis1_689m    HST_WFC3_uvis1_689m.dat   		  21.885927 		21.593655	  21.100233
+HST_WFC3_uvis1_763m    HST_WFC3_uvis1_763m.dat   		  22.210574 		21.814418	  21.100233
+HST_WFC3_uvis1_775w    HST_WFC3_uvis1_775w.dat   		  22.220904 		21.822987	  21.100233
+HST_WFC3_uvis1_814w    HST_WFC3_uvis1_814w.dat   		  22.371254 		21.927133	  21.100233
+HST_WFC3_uvis1_845m    HST_WFC3_uvis1_845m.dat   		  22.578929 		22.039461	  21.100233
+HST_WFC3_uvis1_850lp   HST_WFC3_uvis1_850lp.dat    	  22.783464 		22.212490 	  21.100233 
+# END

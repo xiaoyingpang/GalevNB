@@ -1,0 +1,55 @@
+#
+# This file lists all parameters for the spectral libraries
+#
+# File-struct:
+#
+# lines started by @ start a new stellar library
+#   The name can be chosen arbitrary, but the ID after the 
+#   determines with class is used to read the spec-files
+#   ID=1: Lejeune
+#   ID=2: not yet implemented
+#
+# subsequent lines contain
+#   first entry: as follows
+#   from 2nd entry: comments
+#   1) Directory where data is stored
+#   2) filename containing speclib data (index.dat)
+#   3) filename containing wavelengths
+#   Filenames 2) and 3) are relative to speclib Directory, so
+#   normally should only contain index.dat and lambda.dat
+#
+# lines started by # or empty lines are ignored
+#
+
+@ lejeune 1
+  input_data/speclibs/Lejeune      <-- Directory
+  index.dat                        <-- file with data
+  lambda.dat                       <-- file with wavelengths
+  
+@ lejeune_pc 2
+  spectral_templates/Lejeune       <-- Directory
+  index.newcalib                   <-- file with data
+  lambda.dat                       <-- file with wavelengths
+
+#  index.calib                      <-- file with data  
+@ precalib 2
+  input_data/speclibs/Lejeune  <-- Directory
+  index.calib                        <-- file with data
+  lambda.dat                       <-- file with wavelengths
+ 
+@ lowres 2
+  input_data/speclibs/lowres
+  index.dat                        <-- file with data
+  lambda.dat                       <-- file with wavelengths
+
+@ lowres_optical 2
+  input_data/speclibs/low_res_optical
+  index_lowres.dat                        <-- file with data
+  lambda.dat                       <-- file with wavelengths
+
+@ lowres_optical_full 2
+  input_data/speclibs/low_res_optical_full
+  index__low_res_full.calib
+  lambda.dat                       <-- file with wavelengths
+
+#index_lowres.dat                        <-- file with data

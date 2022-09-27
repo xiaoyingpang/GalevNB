@@ -1,0 +1,16 @@
+
+
+Filter                                                   VEGAMAG        ABMAG            STMAG
+
+Standard_Johnson_U Johnson_U.dat                       	 20.919987	20.210606	 21.100233
+Standard_Johnson_B Johnson_B.dat                       	 20.522241	20.612405	 21.100233
+Standard_Johnson_V Johnson_V.dat                       	 21.103851	21.098070	 21.100233
+Standard_Cousins_R Cousins_Rc.dat                      	 21.671008	21.473735	 21.100233
+Standard_Cousins_I Cousins_Ic.dat                      	 22.392122	21.929012	 21.100233
+Standard_BesselBrett_J BesselBrett_J.dat                  23.794760	22.858123	 21.100233
+Standard_BesselBrett_H BesselBrett_H.dat                  24.903649	23.481383	 21.100233
+Standard_BesselBrett_K BesselBrett_K.dat                  26.051437	24.121528	 21.100233
+GALEX_FUV galex_FUV.dat                                     20.585657      18.329101        21.100233
+GALEX_NUV galex_NUV.dat                                     20.799109      19.189356        21.100233
+
+
