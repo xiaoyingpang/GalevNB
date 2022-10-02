@@ -2,10 +2,10 @@
  ReadMe of software package "GalevNB"
 --------------------------------------
 
- X. Pang, C. Olczak
+ X. Pang, C. Olczak, Q. Shu, J. Li
 
  First edit: 26 February 2013
- Last  edit: 13 August   2013
+ Last  edit: 2 October   2022
 
 --------------------------------------
 
@@ -68,32 +68,35 @@
 
 4. Installation:  
 
-   1) Unpack the GalevNB archive in your favorite location, subsequently called <GalevNB_installation_path>.
+        1) Unpack the GalevNB archive in your favorite location, subsequently called <GalevNB_installation_path>.
 
-   Since the structure of both programs is the same, here we use galevnb_linux_bev as an example (The steps to install the program in galevnb_linux_bev
-   are the same):
-    2) cd <GalevNB_installation_path>/galevnb_linux_sevsin
-    3) edit zmet in file GalevNB.f90 (line 230):
-            zmet = n 
-            [Here n = \log_{}{\frac{metallicity}{solar~abundance} }, metallicity is the the metallicity of target cluster]
-            For examplem, if the metallicity of target cluster equals to solar abundance, set zmet=0
-            If the metallicity of target cluster equals to 0.01*solar abundance, set zmet=-2
-    4) Type "make" to compile.
-        If you need to recompile the program, just type "make" again.
-        In case you need more debugging output during run time compile via "make debug".
-        For cleaning the directory type "make clean".
+        Since the structure of both programs is the same, here we use galevnb_linux_bev as an example (The steps to install the program in galevnb_linux_bev
+        are the same):
 
-   5) Add the GalevNB installation path to your personal shell configuration file (".bashrc",".tcshrc",...) in your home directory.
-      
-      a) for bash:
-         - add this line to your .bashrc: "export PATH=${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
-           -> NOTE: this will take effect only in a new terminal instance
-	            for immediate effect in your current terminal type "source .bashrc"
+            2) cd <GalevNB_installation_path>/galevnb_linux_sevsin
 
-      b) for tcsh:
-         - add this line to your .tcshrc: "setenv PATH ${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
-           -> NOTE: this will take effect only in a new terminal instance
-	            for immediate effect in your current terminal type "source .tcshrc"
+            3) edit zmet in file GalevNB.f90 (line 230):
+                    zmet = n 
+                    [Here n = \log_{}{\frac{metallicity}{solar~abundance} }, metallicity is the the metallicity of target cluster]
+                    For examplem, if the metallicity of target cluster equals to solar abundance, set zmet=0
+                    If the metallicity of target cluster equals to 0.01*solar abundance, set zmet=-2
+                    
+            4) Type "make" to compile.
+                If you need to recompile the program, just type "make" again.
+                In case you need more debugging output during run time compile via "make debug".
+                For cleaning the directory type "make clean".
+
+        5) Add the GalevNB installation path to your personal shell configuration file (".bashrc",".tcshrc",...) in your home directory.
+            
+            a) for bash:
+                - add this line to your .bashrc: "export PATH=${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
+                -> NOTE: this will take effect only in a new terminal instance
+                        for immediate effect in your current terminal type "source .bashrc"
+
+            b) for tcsh:
+                - add this line to your .tcshrc: "setenv PATH ${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
+                -> NOTE: this will take effect only in a new terminal instance
+                        for immediate effect in your current terminal type "source .tcshrc"
 
 
 
