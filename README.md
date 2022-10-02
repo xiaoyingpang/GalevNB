@@ -79,9 +79,10 @@
                     zmet = n 
     [Here n = $\log_{}{\frac{metallicity}{solar~abundance} }$, metallicity is the the metallicity of target cluster]
 
-    For examplem, if the metallicity of target cluster equals to solar abundance, set zmet=0
+    For example, if the metallicity of target cluster equals to solar abundance, set zmet=0
 
-    If the metallicity of target cluster equals to 0.01*solar abundance, set zmet=-2
+    If the metallicity of target cluster equals to 
+    $\frac{solar~abundance}{100}$, set zmet=-2
                     
             4) Type "make" to compile.
                 If you need to recompile the program, just type "make" again.
