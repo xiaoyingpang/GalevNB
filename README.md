@@ -1,4 +1,4 @@
-# GalevNB--------------------------------------
+# GalevNB
  ReadMe of software package "GalevNB"
 --------------------------------------
 
