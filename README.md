@@ -97,13 +97,13 @@
                 -> NOTE: this will take effect only in a new terminal instance
                         for immediate effect in your current terminal type "source .tcshrc"
     *:
-    
-    [Here n = $\log_{}{\frac{metallicity}{solar~abundance} }$, metallicity is the the metallicity of target cluster]
 
-    For example, if the metallicity of target cluster equals to solar abundance, set zmet=0
+        [Here n = $\log_{}{\frac{metallicity}{solar~abundance} }$, metallicity is the the metallicity of target cluster]
 
-    If the metallicity of target cluster equals to 
-    $\frac{solar~abundance}{100}$, set zmet=-2
+        For example, if the metallicity of target cluster equals to solar abundance, set zmet=0
+
+        If the metallicity of target cluster equals to 
+        $\frac{solar~abundance}{100}$, set zmet=-2
 
 
 5. Execution:
