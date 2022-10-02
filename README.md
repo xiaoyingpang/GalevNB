@@ -108,23 +108,23 @@
 
 5. Execution:
 
-   1) Make sure you have a set of snapshot files that were generated from a NBODY6 / NBODY6++ simulation.
+        1) Make sure you have a set of snapshot files that were generated from a NBODY6 / NBODY6++ simulation.
 
-   2) Copy the file "<GalevNB_installation_path>/galevnb_linux_sevsin(or galevnb_linux_bev)/filter_response_curves/filterlist.dat" to the location of the snapshot files.
+        2) Copy the file "<GalevNB_installation_path>/galevnb_linux_sevsin(or galevnb_linux_bev)/filter_response_curves/filterlist.dat" to the location of the snapshot files.
 
-   3) Edit the file "filterlist.dat": uncomment (i.e. remove the leading "#" of) your preferred filters.
-      NOTE: The current maximum are 20 filters.
+        3) Edit the file "filterlist.dat": uncomment (i.e. remove the leading "#" of) your preferred filters.
+            NOTE: The current maximum are 20 filters.
 
-   4) Type "GalevNBsevs(or "GalevNBbev" for binaries)" to process the snapshot files.
-      The following output files will be created:
+        4) Type "GalevNBsevs(or "GalevNBbev" for binaries)" to process the snapshot files.
+            The following output files will be created:
 
-      a) "stellar_magnitudes-*": snapshot files containing the stellar properties and observational magnitudes of individual stars for the chosen filters.
-   
-      b) "cluster_int_mag.dat": list of integrated magnitudes of the stellar system for each snapshot and the chosen filters.
+            a) "stellar_magnitudes-*": snapshot files containing the stellar properties and observational magnitudes of individual stars for the chosen filters.
+        
+            b) "cluster_int_mag.dat": list of integrated magnitudes of the stellar system for each snapshot and the chosen filters.
 
-      c) "spec_out-*": snapshots of the integrated spectrum of the stellar system covering a wavelength range of 90..10^6 Angstrom.
+            c) "spec_out-*": snapshots of the integrated spectrum of the stellar system covering a wavelength range of 90..10^6 Angstrom.
 
-      [TODO:  d) Individual stellar spectra: this file can be produced upon user request.    !!(Christoph, we may add this choice for the user in the main file?) ]
+            [TODO:  d) Individual stellar spectra: this file can be produced upon user request.    !!(Christoph, we may add this choice for the user in the main file?) ]
 
 
 
