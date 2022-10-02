@@ -77,7 +77,7 @@
 
             3) edit zmet in file GalevNB.f90 (line 230):
                     zmet = n 
-                    [Here n = \log_{}{\frac{metallicity}{solar~abundance} }, metallicity is the the metallicity of target cluster]
+                    [Here n = $\log_{}{\frac{metallicity}{solar~abundance} }, metallicity is the the metallicity of target cluster]
                     For examplem, if the metallicity of target cluster equals to solar abundance, set zmet=0
                     If the metallicity of target cluster equals to 0.01*solar abundance, set zmet=-2
                     
