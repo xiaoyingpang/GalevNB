@@ -89,17 +89,19 @@
                 In case you need more debugging output during run time compile via "make debug".
                 For cleaning the directory type "make clean".
 
-            5) Add the GalevNB installation path to your personal shell configuration file (".bashrc",".tcshrc",...) in your home directory.
-                
-                a) for bash:
-                    - add this line to your .bashrc: "export PATH=${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
-                    -> NOTE: this will take effect only in a new terminal instance
-                            for immediate effect in your current terminal type "source .bashrc"
 
-                b) for tcsh:
-                    - add this line to your .tcshrc: "setenv PATH ${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
-                    -> NOTE: this will take effect only in a new terminal instance
-                            for immediate effect in your current terminal type "source .tcshrc"
+
+        5) Add the GalevNB installation path to your personal shell configuration file (".bashrc",".tcshrc",...) in your home directory.
+            
+            a) for bash:
+                - add this line to your .bashrc: "export PATH=${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
+                -> NOTE: this will take effect only in a new terminal instance
+                        for immediate effect in your current terminal type "source .bashrc"
+
+            b) for tcsh:
+                - add this line to your .tcshrc: "setenv PATH ${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
+                -> NOTE: this will take effect only in a new terminal instance
+                        for immediate effect in your current terminal type "source .tcshrc"
 
 
 
