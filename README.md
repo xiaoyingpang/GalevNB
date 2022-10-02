@@ -76,13 +76,7 @@
             2) cd <GalevNB_installation_path>/galevnb_linux_sevsin
 
             3) edit zmet in file GalevNB.f90 (line 230):
-                    zmet = n 
-    [Here n = $\log_{}{\frac{metallicity}{solar~abundance} }$, metallicity is the the metallicity of target cluster]
-
-    For example, if the metallicity of target cluster equals to solar abundance, set zmet=0
-
-    If the metallicity of target cluster equals to 
-    $\frac{solar~abundance}{100}$, set zmet=-2
+                    zmet = n*
                     
             4) Type "make" to compile.
                 If you need to recompile the program, just type "make" again.
@@ -102,7 +96,12 @@
                 - add this line to your .tcshrc: "setenv PATH ${PATH}:<GalevNB_installation_path>galevnb_linux_bev:<GalevNB_installation_path>galevnb_linux_sevsin"
                 -> NOTE: this will take effect only in a new terminal instance
                         for immediate effect in your current terminal type "source .tcshrc"
+    *:[Here n = $\log_{}{\frac{metallicity}{solar~abundance} }$, metallicity is the the metallicity of target cluster]
 
+    For example, if the metallicity of target cluster equals to solar abundance, set zmet=0
+
+    If the metallicity of target cluster equals to 
+    $\frac{solar~abundance}{100}$, set zmet=-2
 
 
 5. Execution:
