@@ -129,7 +129,9 @@
 
 
 6. Input parameters:
-* Structure of the slibrary vector ******************************
+* Structure of the slibrary vector
+
+******************************
  *
  * metall_bin:                  < -2.0    index 0                  Solar metallicity is [Fe/H]=0.0; 
  *               -2.0 <= [Fe/H] < -1.0          1
