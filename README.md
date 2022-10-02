@@ -157,7 +157,7 @@
     *                5.0 <= logg < 6.0             8
     *                6.0 <= logg                   9
     * 
-    ***************************************************************** */
+    *****************************************************************
 
 E.g., in the spectra file (under directory:spectral_templates/Lejeune), 
 file name:09000_p2.0_m1.5_p00.spec means 9000K effective temperature, log(g)=+2.0, [Fe/H]=-1.5, [alpha/H]=+0.0 ... p/m are for plus/minus
