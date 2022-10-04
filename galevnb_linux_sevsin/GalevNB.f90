@@ -74,9 +74,9 @@ PROGRAM specGalev
   integrated_mags = 0.0
 
   ! Open file for writing cluster integrated magnitudes.
-  OPEN( UNIT = unit__cluster_int_mag, FILE = TRIM( filename__cluster_int_mag ), STATUS = "REPLACE", ACTION = "WRITE", ACCESS = "APPEND" )
-  WRITE( UNIT = unit__cluster_int_mag, FMT = "( a1, 1x, a9, 2x, a15 )" ) "#", "time", "integrated_mags"
-  WRITE( UNIT = unit__cluster_int_mag, FMT = "( a1, 1x, a9, 2x, "//number_of_filters__string//"( 1x, a6 ) )" ) "#", "[Myr]", ( "[mag]", k = 1, number_of_filters )
+  !OPEN( UNIT = unit__cluster_int_mag, FILE = TRIM( filename__cluster_int_mag ), STATUS = "REPLACE", ACTION = "WRITE", ACCESS = "APPEND" )
+  !WRITE( UNIT = unit__cluster_int_mag, FMT = "( a1, 1x, a9, 2x, a15 )" ) "#", "time", "integrated_mags"
+  !WRITE( UNIT = unit__cluster_int_mag, FMT = "( a1, 1x, a9, 2x, "//number_of_filters__string//"( 1x, a6 ) )" ) "#", "[Myr]", ( "[mag]", k = 1, number_of_filters )
 
   ! Inform user.
   WRITE( UNIT = 6, FMT = "( a )" ) "Creating file for cluster integrated magnitudes: """//TRIM( filename__cluster_int_mag )//"""."
