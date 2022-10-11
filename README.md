@@ -8,7 +8,7 @@
  Last  edit: 2 October   2022
 
 --------------------------------------
-
+For more details, please refer to [Pang et al. (2016)](https://iopscience.iop.org/article/10.1088/1674-4527/16/3/037)
 
 1. Introduction:
 
